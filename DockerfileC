@@ -1,4 +1,3 @@
 FROM curlimages/curl
 COPY ./client .
-WORKDIR ~
 CMD ["sh", "client.sh"]
